@@ -1,0 +1,71 @@
+.root {
+    -fx-background-color: "lightblue";
+}
+
+.label {
+    -fx-font-size: 40;
+    -fx-alignment: CENTER;
+}
+
+.button {
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-background-radius: 4;
+    -fx-background-insets: 0, 0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-padding: 7 15 15 15;
+
+    -fx-background-color:
+            linear-gradient(from 0% 95% to 0% 100%, #1343a3 0%, #161290 100%), #244e9d, black,
+            radial-gradient(center 45% 55%, radius 100%, #3a89d8, #2c62c5);
+    -fx-font-size: 13;
+}
+
+.button:hover {
+    -fx-background-color:
+        linear-gradient(from 0% 95% to 0% 100%, #1356a3 0%, #161290 100%), #244e9d, white,
+        radial-gradient(center 45% 55%, radius 100%, #6193d2, #6485c4);
+    -fx-text-fill: black;
+}
+
+.button:pressed {
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 3 0 0 0, 3 0 3 0, 3 0 4 0, 3 0 5 0;
+}
+
+#saveGameLabelId{
+    -fx-font-size: 15;
+}
+
+#saveGameLabelId:hover{
+    -fx-text-fill: yellow;
+}
+
+#promotionPieceId:hover {
+    -fx-opacity: 1;
+}
+
+#replayGameScrollPane {
+    -fx-background-color: blue;
+}
+
+#replayGameScrollPaneAnchorPaneId {
+    -fx-fill: blue;
+}
+
+#voteForfeitLabelId {
+    -fx-font-size: 15;
+}
+
+#saveGameNameSavedUnderPanelId {
+    -fx-font-size: 20;
+    -fx-fill: black;
+}
+
+#matchEndedTextId {
+    -fx-font-size: 25;
+}
+
+#saveGameSavedNameId {
+    -fx-font-size: 15;
+    -fx-fill: black;
+}
